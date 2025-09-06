@@ -104,7 +104,7 @@ const QuizApp = () => {
     );
   }
 
-  if (quizState === 'quiz' &&\ questions.length > 0) {
+  if (quizState === 'quiz' && questions.length > 0) {
     const currentQuestion = questions[currentQuestionIndex];
     const progress = ((currentQuestionIndex + 1) / questions.length) * 100;
 
