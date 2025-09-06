@@ -20,7 +20,7 @@ const QuizQuestion = ({
           <div className="flex justify-between items-center mb-2">
             <h1 className="text-2xl font-bold text-blue-800">Quiz App</h1>
             <div className="text-right">
-              <div className="text-sm text-gray-600">Question {currentIndex + 1} of {totalQuestions}</div>
+              <div className="text-sm text-gray-600">Question {currentIndex + 1} of {totalQuestions}</div
               <div className="text-sm text-gray-600">Score: {score}/{currentIndex}</div>
             </div>
           </div>
